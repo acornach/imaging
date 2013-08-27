@@ -1,4 +1,4 @@
-﻿Build started 8/26/2013 4:25:11 PM.
+﻿Build started 8/26/2013 5:52:48 PM.
      1>Project "C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\GuiTest3\GuiTest3.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\GuiTest3.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -12,10 +12,16 @@
          Generating Code...
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\\GuiTest3.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.0_32\5.1.0\msvc2010\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GuiTest3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\GuiTest3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\GuiTest3.lib" /MACHINE:X86 Debug\moc_guitest3.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\\GuiTest3.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.0_32\5.1.0\msvc2010\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GuiTest3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\GuiTest3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\GuiTest3.lib" /MACHINE:X86 Debug\brainstack.obj
+         Debug\moc_brainstack.obj
+         Debug\moc_guitest3.obj
+         Debug\moc_multipleneuron.obj
+         Debug\moc_singleneuron.obj
          Debug\qrc_guitest3.obj
          Debug\guitest3.obj
          Debug\main.obj
+         Debug\multipleneuron.obj
+         Debug\singleneuron.obj
          LINK : C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\\GuiTest3.exe not found or not built by the last incremental link; performing full link
          GuiTest3.vcxproj -> C:\Users\Mike\documents\visual studio 2010\Projects\GuiTest3\Win32\Debug\GuiTest3.exe
        Manifest:
@@ -27,4 +33,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.17
+Time Elapsed 00:00:02.29

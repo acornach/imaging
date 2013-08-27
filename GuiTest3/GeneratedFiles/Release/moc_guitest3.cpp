@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_GuiTest3_t {
-    QByteArrayData data[1];
-    char stringdata[10];
+    QByteArrayData data[6];
+    char stringdata[112];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -29,9 +29,16 @@ struct qt_meta_stringdata_GuiTest3_t {
     )
 static const qt_meta_stringdata_GuiTest3_t qt_meta_stringdata_GuiTest3 = {
     {
-QT_MOC_LITERAL(0, 0, 8)
+QT_MOC_LITERAL(0, 0, 8),
+QT_MOC_LITERAL(1, 9, 26),
+QT_MOC_LITERAL(2, 36, 0),
+QT_MOC_LITERAL(3, 37, 28),
+QT_MOC_LITERAL(4, 66, 24),
+QT_MOC_LITERAL(5, 91, 19)
     },
-    "GuiTest3\0"
+    "GuiTest3\0on_neuronSingleBtn_clicked\0"
+    "\0on_neuronMultipleBtn_clicked\0"
+    "on_brainStackBtn_clicked\0on_closeBtn_clicked\0"
 };
 #undef QT_MOC_LITERAL
 
@@ -41,21 +48,40 @@ static const uint qt_meta_data_GuiTest3[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
 
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   34,    2, 0x0a,
+       3,    0,   35,    2, 0x0a,
+       4,    0,   36,    2, 0x0a,
+       5,    0,   37,    2, 0x0a,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
        0        // eod
 };
 
 void GuiTest3::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        GuiTest3 *_t = static_cast<GuiTest3 *>(_o);
+        switch (_id) {
+        case 0: _t->on_neuronSingleBtn_clicked(); break;
+        case 1: _t->on_neuronMultipleBtn_clicked(); break;
+        case 2: _t->on_brainStackBtn_clicked(); break;
+        case 3: _t->on_closeBtn_clicked(); break;
+        default: ;
+        }
+    }
     Q_UNUSED(_a);
 }
 
@@ -83,6 +109,15 @@ int GuiTest3::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     _id = QMainWindow::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 4)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 4;
+    }
     return _id;
 }
 QT_END_MOC_NAMESPACE
